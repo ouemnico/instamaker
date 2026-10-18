@@ -173,7 +173,7 @@ textarea{resize:vertical;min-height:64px}
 .ct{overflow-y:auto;min-height:0;scrollbar-width:none}.ct::-webkit-scrollbar{display:none}
 .phone.sq{border-radius:0}
 .hd2{align-items:center}.pr{padding-top:0}.pav{margin-top:0}
-.pav.ring::before{inset:0}
+.pav.ring::before{inset:-2px}
 .pav.ring::after{content:"";position:absolute;inset:6px;border-radius:50%;background:var(--phone)}
 .pav.ring .av{width:76px;height:76px;margin:6px;border:0;z-index:2}
 .pav.seen::before{background:#c7c7cc}
@@ -190,7 +190,7 @@ textarea{resize:vertical;min-height:64px}
 .pr{transform:translateY(-8px)}
 .pav{width:80px;height:80px}.pav .av{width:80px;height:80px}
 .pav.ring .av{width:80px;height:80px;margin:0;border:0;z-index:2}
-.pav.ring::before{inset:0px}
+.pav.ring::before{inset:-2px}
 .pav.ring::after{inset:-6px}
 .pav.seen::before{background:#c7c7cc}
 .sadd{-webkit-text-stroke:0;padding:0}
@@ -216,8 +216,8 @@ textarea{resize:vertical;min-height:64px}
 .rts .on{background:var(--acc);color:#fff}
 .crw{display:flex;justify-content:center;align-items:center;height:396px}.crw .crf{margin:0}
 .who2 b{font-weight:600}
-.pav.ring::before{inset:-7px;background:linear-gradient(45deg,#fdd835,#f57c00 28%,#e91e63 58%,#d81b9a 80%,#b53bd8)}
-.pav.ring::after{inset:-3px}
+.pav.ring::before{inset:-2px;background:linear-gradient(45deg,#fdd835,#f57c00 28%,#e91e63 58%,#d81b9a 80%,#b53bd8)}
+.pav.ring::after{inset:-6px}
 .pav.seen::before{background:#dadde4}
 .sv.in{animation:svin .38s cubic-bezier(.2,.8,.2,1);transform-origin:16% 18%}
 @keyframes svin{from{transform:scale(.15);opacity:0;border-radius:50%}to{transform:scale(1);opacity:1}}
@@ -226,7 +226,7 @@ textarea{resize:vertical;min-height:64px}
 .sheet.cs{max-height:68%;overflow:auto}.ct2{margin:0 0 8px;text-align:center;font-size:15px}
 .cr{display:flex;gap:10px;padding:8px 18px;font-size:14px}.cr span{flex:1}.cr u{text-decoration:none;color:var(--mute);cursor:pointer}
 .cadd{margin:10px 18px 0;padding:11px 14px;border-radius:22px;background:var(--fill);color:var(--mute);cursor:pointer;font-size:14px}
-.pav.ring::before{inset:0px;background:linear-gradient(45deg,#fdd835 0%,#f9a11b 22%,#f0503c 48%,#e91e8c 72%,#c13584 100%)}
+.pav.ring::before{inset:-2px;background:linear-gradient(45deg,#fdd835 0%,#f9a11b 22%,#f0503c 48%,#e91e8c 72%,#c13584 100%)}
 .pav.ring::after{inset:-6px}
 .pav.seen::before{background:#dadde4}
 .rr{position:relative;width:var(--d);height:var(--d);flex:none}
@@ -263,7 +263,8 @@ textarea{resize:vertical;min-height:64px}
 .ar u{text-decoration:none;color:var(--blue);font-weight:700}
 .hd2{margin-top:10px}.pav{margin-top:2px}.pr{padding-top:20px}.note{top:-16px}
 .pav .av{position:relative;z-index:1}
-.pav.ring::before{content:"";position:absolute;inset:-5px;border-radius:50%;background:linear-gradient(45deg,#f9ce34,#ee2a7b,#6228d7)}
+.pav.ring::before{content:"";position:absolute;inset:-2px;border-radius:50%;background:linear-gradient(45deg,#f9ce34,#ee2a7b,#6228d7)}
+.pav.ring::after{content:"";position:absolute;inset:-6px;border-radius:50%;bacground:var(--phone)}
 .pav.ring .av{border:3px solid var(--phone);cursor:pointer}
 .sadd{position:absolute;right:-2px;bottom:-2px;width:26px;height:26px;border-radius:50%;background:var(--blue);color:#fff;border:3px solid var(--phone);display:flex;align-items:center;justify-content:center;font-size:17px;line-height:1;z-index:3;cursor:pointer}
 .svl2{position:absolute;top:6px;left:8px;right:8px;display:flex;gap:4px;z-index:2}
